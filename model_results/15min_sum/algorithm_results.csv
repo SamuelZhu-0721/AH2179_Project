@@ -1,0 +1,7 @@
+Algorithm,Configuration,Parameters,MAE,RMSE,MAPE_percent,MAPE_excluded_zero_targets,R2,N
+XGBoost,D,"{""colsample_bytree"": 1.0, ""learning_rate"": 0.1, ""max_depth"": 6, ""min_child_weight"": 1, ""n_estimators"": 100, ""n_jobs"": 2, ""objective"": ""reg:squarederror"", ""random_state"": 42, ""reg_alpha"": 0.1, ""reg_lambda"": 1.0, ""subsample"": 0.8, ""tree_method"": ""hist"", ""verbosity"": 0}",18.696134793444763,26.399577597913506,11.190865100202725,0,0.9161869739665469,59105
+Random Forest,B,"{""max_depth"": 20, ""max_features"": 0.5, ""min_samples_leaf"": 1, ""n_estimators"": 150, ""n_jobs"": 2, ""random_state"": 42}",18.40077558535782,26.44089001952978,10.666936523053462,0,0.9159244524708575,59105
+SVR,A,"{""C"": 10.0, ""cache_size"": 512, ""epsilon"": 0.1, ""gamma"": 0.01}",21.015052799409766,28.9914726265346,13.872133604320789,0,0.898921656314162,59105
+Linear Regression,B,"{""fit_intercept"": false, ""pca_variance"": 0.999999}",21.802709691123415,29.531984238849578,14.555597246152468,0,0.8951175507100444,59105
+MLP,A,"{""alpha"": 0.01, ""batch_size"": 256, ""early_stopping"": false, ""hidden_layer_sizes"": [64, 32], ""learning_rate_init"": 0.001, ""max_iter"": 300, ""random_state"": 42, ""tol"": 0.001}",21.84119277084953,29.741382026533802,14.647307776034745,0,0.8936249307453022,59105
+KNN,A,"{""n_neighbors"": 5, ""p"": 1, ""weights"": ""uniform""}",26.846290499957703,36.222064689794756,17.419350600722982,0,0.8422156342127565,59105

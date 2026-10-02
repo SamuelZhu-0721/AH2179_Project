@@ -1,0 +1,7 @@
+Dataset,Period,Recorded_rows,Usable_pairs,Excluded_pairs,Zero_FLOW,Missing_FLOW,Missing_speed
+Training dataset,Normal,1574310,1574253,57,0,55,0
+Training dataset,Rush,347657,347650,7,0,7,0
+Final evaluation dataset,Normal,659202,659190,12,0,2,0
+Final evaluation dataset,Rush,144299,144297,2,0,2,0
+Evaluation dataset,Normal,658023,657990,33,0,29,0
+Evaluation dataset,Rush,145354,145354,0,0,0,0

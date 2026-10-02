@@ -1,0 +1,7 @@
+Algorithm,Configuration,Candidate,Parameters,Mean_CV_RMSE,Std_CV_RMSE,Mean_CV_MAE,Mean_CV_MAPE_percent,ConvergenceWarnings
+Random Forest,B,1,"{""max_depth"": 20, ""max_features"": 0.5, ""min_samples_leaf"": 1, ""n_estimators"": 150, ""n_jobs"": 2, ""random_state"": 42}",23.24487001844808,0.19351192891335017,17.391258611085146,9.112868487804176,0
+XGBoost,D,0,"{""colsample_bytree"": 1.0, ""learning_rate"": 0.1, ""max_depth"": 6, ""min_child_weight"": 1, ""n_estimators"": 100, ""n_jobs"": 2, ""objective"": ""reg:squarederror"", ""random_state"": 42, ""reg_alpha"": 0.1, ""reg_lambda"": 1.0, ""subsample"": 0.8, ""tree_method"": ""hist"", ""verbosity"": 0}",23.385239456435812,0.12224739818178226,17.48629821311103,9.252279299385998,0
+SVR,A,1,"{""C"": 10.0, ""cache_size"": 512, ""epsilon"": 0.1, ""gamma"": 0.01}",25.489518265003635,0.43503630560286727,18.264544310989876,9.821431982808276,0
+Linear Regression,B,2,"{""fit_intercept"": false, ""pca_variance"": 0.999999}",26.335151842949646,0.7382442435728642,19.745960766548357,10.676469696360819,0
+MLP,A,0,"{""alpha"": 0.01, ""batch_size"": 256, ""early_stopping"": false, ""hidden_layer_sizes"": [64, 32], ""learning_rate_init"": 0.001, ""max_iter"": 300, ""random_state"": 42, ""tol"": 0.001}",26.368650903224744,0.8552805644045118,19.42251971203076,10.554880209414597,0
+KNN,A,2,"{""n_neighbors"": 5, ""p"": 1, ""weights"": ""uniform""}",27.856893061233205,1.9348057833957983,20.12022222222222,10.523067958008468,0

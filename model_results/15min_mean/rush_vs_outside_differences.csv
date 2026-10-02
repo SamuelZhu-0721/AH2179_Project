@@ -1,0 +1,3 @@
+Dataset,MAE_outside_minus_within,RMSE_outside_minus_within,MAPE_percent_outside_minus_within,R2_outside_minus_within,MAE_over_mean_percent_outside_minus_within,Coverage_percent_outside_minus_within,Full_history_RMSE_outside_minus_within,RMSE_skill_percent_outside_minus_within
+Final evaluation dataset,0.2480115945138992,0.34667081127238086,2.328811415082539,-0.027797446472328624,1.849743701883054,-4.9657160250716,0.2863969037701011,-8.037186224451027
+Evaluation dataset,0.1443942518127448,0.15146379402819,1.558010889215291,-0.010984832440341319,1.1984525572963065,-6.420738507491862,0.12435565340276233,-4.082972525096814
